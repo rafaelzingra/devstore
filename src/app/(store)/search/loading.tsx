@@ -1,5 +1,3 @@
 export default function SearchLoading() {
-    return (
-        <p>Carregando busca...</p>
-    );
-}
+    return <p>Carregando busca...</p>
+  }
