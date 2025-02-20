@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "devstore"  
+  title: "devstore"
 };
 
 export default function RootLayout({
@@ -17,10 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${inter.variable}`}
-      >
+    <html className={`${inter.variable}`} lang="pt-BR">
+      <body>
         {children}
       </body>
     </html>
